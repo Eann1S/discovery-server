@@ -82,6 +82,8 @@
                             <jvmFlag>-XX:+UseSerialGC</jvmFlag>
                             <jvmFlag>-Xss512k</jvmFlag>
                             <jvmFlag>-XX:MaxRAM=72m</jvmFlag>
+                            <jvmFlag>-XX:+UnlockExperimentalVMOptions</jvmFlag>
+                            <jvmFlag>-XX:+UseContainerSupport</jvmFlag>
                         </jvmFlags>
                     </container>
                     <extraDirectories>
